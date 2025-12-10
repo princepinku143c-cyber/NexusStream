@@ -24,7 +24,6 @@ jobs:
         # Add your build commands here
     
     - name: Upload APK
-      uses: actions/upload-artifact@v3
-      with:
+uses: actions/upload-artifact@v4      with:
         name: android-apk
         path: '**/*.apk'
